@@ -204,25 +204,6 @@ height: 677px;
 
 /*Players Image and Details Section End */
 
-/* Math Highlights Section Start */
-
-/* Display Flex for show highlights details and banners */
-.match-highlights{
-    display: flex;
-}
-
-/* Highlights banner resize */
-.highlights-banner{
-    width: 567px;
-height: 427px;
-}
-
-/* Half width calculation for highlights section */
-.half-width{
-    width: 50%;
-}
-
-/* Math Highlights Section End */
 
 /* footers 1st part designed Start (about us part) */
 /* used flex  */
@@ -275,14 +256,14 @@ height: 427px;
   
   /* Add some padding and a grey background color to containers */
   .form-container {
-      width: 50%;
+      width: 100%;
     padding: 20px;
     background-color: lightgreen;
   }
   
   /* Style the input elements and the submit button */
   input[type=text] {
-    width: 50%;
+    width: 100%;
     padding: 12px;
     margin: 8px 0;
     display: inline-block;
@@ -292,7 +273,7 @@ height: 427px;
   
   /* Style the submit button */
   .form-submit-button{
-    width: 50%;
+    width: 100%;
     background-color:limegreen;
     color: white;
     padding: 12px;
