@@ -1,0 +1,411 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Common Style */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+
+/* Top Header Main Design */
+/* .top-header{
+background-color: #2D25A0;
+width: 1440px;
+height: 677px;
+} */
+/* Navigation Menu */
+
+/* Header Title and Image Section */
+/* .top-section{
+    display: flex;
+} */
+
+/* Header Title */
+/* .header-title{
+    color: #FFFFFF;
+    width: 485px;
+    height: 230px;
+    font-weight: 700;
+    line-height: 80px;
+    margin-left: 156px;
+    margin-top: 207px;
+
+} */
+
+/* Navbar section style */
+
+/* .topnav {
+    background-image: linear-gradient(blue , aqua);
+    overflow: hidden;
+  }
+
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 16px;
+    margin-right: 120px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+  }
+
+  
+.topnav a:hover {
+    background-color:aqua;
+    color: blue;
+  }
+   */
+/* Header section style */
+
+.header-section{
+    background-color: rgb(45,37,160);
+    height: 677px;
+    padding-bottom: 86px;
+    margin-bottom: 70px;
+   
+    
+}
+
+.top-banner{
+    display: flex;
+    justify-content: center;
+    /* display: grid;
+    grid-template-columns: repeat(2,1fr); */
+    
+} 
+
+.first-half{
+    
+    width: 485px;
+    height: 230px;
+    margin-left: 156px;
+    margin-top: 207px;
+    
+}
+
+.heading-title{
+   
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+    line-height: 80px;
+    
+} 
+
+.first-button{
+    
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: white;
+    font-weight: 700px;
+    width: 168px;
+    height: 44px;
+    margin-top: 464px; 
+    padding: 10px 24px;    
+}
+
+
+.second-half{
+    width: 556.01px;
+    height: 438px;
+    margin-left: 102px;
+    margin-top: 153px;
+   
+}
+
+.second-half img{
+    width: 100%;
+}
+
+/* Second Image Hover */
+.second-half:hover{
+    
+    transform: rotate(360deg);
+    transition: transform 2s ease-in-out;
+}
+
+/* Watch Live Button */
+.watch-button{
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    width: 168px;
+    height: 44px;
+    /* margin-left: 156px;
+    margin-top: 464px; */
+
+}
+/* Top Banner Image Background */
+.top-banner img{
+    /* background-image: url(images/banner.png); */
+    width: 556.01px;
+    height: 438px;
+    /* margin-top:153px;
+    margin-right: 145px;
+    margin-left: 743px;
+    margin-bottom: 86px; */
+}
+
+/* Header Section End */
+
+/* Body Section Start */
+/* Body Background Design */
+
+/* Players List and Details */
+.container{
+    background-color:#FFFFFF;
+    /* width: 1440px;
+    height: 3750px; */
+    padding: 30px;
+}
+
+
+/* each 3 player in one column */
+.first-three-players, .second-three-players, .third-three-players, .fourth-three-players{
+    margin-top:40px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:30px;
+    margin-bottom: 27px;
+    margin-left: 180px;
+    margin-right: 210px;
+    justify-content: center;
+}
+
+.player{
+    width: 330px;
+    height: 474px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Players Image resize */
+.image img{
+    width: 300px;
+    height: 256px;
+    margin: 15px 15px 1px 15px;
+}
+/* PLayers Details Part */
+.players-details{
+    width: 300px;
+    height: 154px;
+    margin: 15px 15px 33px 15px;
+}
+
+/* Players Names font Size */
+.player-name{
+    font-size: 28px;
+    margin: 16px 0px 10px 0px;
+}
+/* Players Details font Size */
+.player-details-font{
+    font-size: 16px;
+}
+
+/*Players Image and Details Section End */
+
+/* Math Highlights Section Start */
+
+/* Display Flex for show highlights details and banners */
+.match-highlights{
+    display: flex;
+}
+
+/* Highlights banner resize */
+.highlights-banner{
+    width: 567px;
+height: 427px;
+}
+
+/* Half width calculation for highlights section */
+.half-width{
+    width: 50%;
+}
+
+/* Math Highlights Section End */
+
+/* footers 1st part designed Start (about us part) */
+/* used flex  */
+.footer-main-content{
+    display: flex;
+    color: whitesmoke;
+    background-color: black;
+    padding: 45px;
+    padding-left: 100px;
+    align-items: center;
+    margin-top: 50px;
+}
+.left,.center,.right{
+    width: 31%;
+}
+.footer-main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+.box h2 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.place,.phone,.email,.text{
+    margin-bottom: 15px;
+}
+.about-footers-contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    Width: 484px;
+    Height: 213px;
+    margin-left: 475px;
+    margin-right: 482px;
+    margin-bottom: 61px;
+    margin-top: 60px;
+}
+
+/* footers 1st part designed End(about us part) */
+
+/* Newslatter Section DEsign Start */ 
+/* Form Border*/
+.news-latter{
+    margin-top: 50px;
+    border: 2px solid white;
+  }
+  
+  /* Add some padding and a grey background color to containers */
+  .form-container {
+      width: 50%;
+    padding: 20px;
+    background-color: lightgreen;
+  }
+  
+  /* Style the input elements and the submit button */
+  input[type=text] {
+    width: 50%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Style the submit button */
+  .form-submit-button{
+    width: 50%;
+    background-color:limegreen;
+    color: white;
+    padding: 12px;
+    margin: 8px 0;
+  }
+/* Newslatter Section DEsign End */ 
+
+/* Footer Section Start */
+footer{
+    width: 483.87px;
+    height: 213px;
+    margin-left: 475px;
+    margin-right: 481.13px;
+    margin-top: 154px;
+    margin-bottom: 63px;
+}
+/* Footer Banner */
+footer img{
+    width: 483.87px;
+    height: 110px;
+}
+/* Social Media icon resize */
+.social-icon{
+    text-align: center;
+    color:grey;
+    margin: 20px 156.94px 20px 156.94px;
+    font-size: 24px;
+    border-radius: 50%;
+}
+/* Copyright part */
+.copyright{
+    text-align: center;
+    margin-top: 20px;
+}
+/* Footer Section End */
+
+
+/*--------------
+ Media Queries 
+ ---------------*/
+
+ /* Mobile Device */
+
+ @media only screen and (max-width: 688px) {
+   
+    .top-banner{
+     flex-direction: column;
+     width: 360px;
+     height: 695px;
+     margin-left: 0px;
+     margin-top: 0px;
+    }
+ 
+    .first-half{
+     
+     width: 278px;
+     height: 138px;
+     margin-left: 16px;
+     margin-top: 112px;
+     }
+ 
+ .second-half{
+     width: 329px;
+     height: 259.17px;
+     margin-left: 15px;
+     margin-top: 374px;
+     margin-bottom: 61.83px;
+     }
+ 
+ .second-half:hover{
+     transform: rotate(360deg);
+     transition: transform 2s ease-in-out;
+    }
+ 
+ .first-button{ 
+     margin-left: 19px;   
+    }
+ 
+    .first-three-players, .second-three-players, .third-three-players, .fourth-three-players{
+     grid-template-columns: repeat(1  ,1fr) ;
+     margin: 0px 15px 24px 15px;
+     }
+
+    .footer-main-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .left,.center,.right{
+        margin-bottom: 30px;
+    }
+    .footer-contents{
+        width: 100%;
+        margin: 10px;
+    }
+
+    .footer-image{
+     width: 75px;
+     height: 63px;
+     margin-left: 1px;
+     margin-top: 43px;
+        
+    }
+ 
+    .footer-icons{
+     width: 170px;
+     height: 32px;
+     margin-left: 95px;
+     margin-right: 95px;
+     
+    }
+ }
+ 
+ /*--------------
+ Media Queries End
+ -----------------*/
